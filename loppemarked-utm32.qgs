@@ -3,22 +3,20 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="lopperuter_veier20180803112336767" name="lopperuter-veier">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="lopperuter_veier20180803112336767" name="lopperuter-veier">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="lopperuter_område20180803232036548" name="lopperuter-område">
+      <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Kartdata220180803135119195" name="Kartdata2">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lopperuter20180803100536915" name="lopperuter">
-      <customproperties>
-        <property key="expandedLegendNodes"/>
-      </customproperties>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OSM_WMS___osm_wms_de20180803100342624" name="OSM WMS - osm-wms.de">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OSM_WMS___osm_wms_de20180803100342624" name="OSM WMS - osm-wms.de">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -28,10 +26,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>597770.38131759967654943</xmin>
-      <ymin>6646681.60742681939154863</ymin>
-      <xmax>601344.54034794284962118</xmax>
-      <ymax>6648646.32904091384261847</ymax>
+      <xmin>598510.99914309591986239</xmin>
+      <ymin>6646961.52188447490334511</ymin>
+      <xmax>601390.27263738284818828</xmax>
+      <ymax>6648544.26367606595158577</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -51,6 +49,7 @@
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:32632" srcDatumTransform="-1" destDatumTransform="-1" layerid="HILLSHADE_WMS___osm_wms_de20180803100248025"/>
       <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:32632" srcDatumTransform="-1" destDatumTransform="-1" layerid="Kartdata220180803135119195"/>
+      <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lopperuter_område20180803232036548"/>
       <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:32632" srcDatumTransform="-1" destDatumTransform="-1" layerid="lopperuter_veier20180803112336767"/>
       <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:32632" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_WMS___osm_wms_de20180803100342624"/>
       <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="lopperuter20180803100536915"/>
@@ -59,15 +58,20 @@
   <layer-tree-canvas>
     <custom-order enabled="0">
       <item>OSM_WMS___osm_wms_de20180803100342624</item>
-      <item>lopperuter20180803100536915</item>
       <item>lopperuter_veier20180803112336767</item>
       <item>Kartdata220180803135119195</item>
+      <item>lopperuter_område20180803232036548</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lopperuter-veier" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="lopperuter-veier" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="lopperuter_veier20180803112336767" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="lopperuter-område" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="lopperuter_område20180803232036548" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Kartdata2" showFeatureCount="0">
@@ -75,14 +79,9 @@
         <legendlayerfile isInOverview="0" layerid="Kartdata220180803135119195" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="lopperuter" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="lopperuter20180803100536915" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OSM WMS - osm-wms.de" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OSM WMS - osm-wms.de" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OSM_WMS___osm_wms_de20180803100342624" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="OSM_WMS___osm_wms_de20180803100342624" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -168,7 +167,7 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+        <rasterrenderer opacity="0.796078" alphaBand="-1" band="1" type="singlebandcolordata">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
@@ -179,17 +178,17 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
-        <xmin>10.76716359165102688</xmin>
-        <ymin>59.94537059579671023</ymin>
-        <xmax>10.78774015650698814</xmax>
-        <ymax>59.95578208058521597</ymax>
+        <xmin>10.7671581522557247</xmin>
+        <ymin>59.9453756579957826</ymin>
+        <xmax>10.79502065488967766</xmax>
+        <ymax>59.95670602956555939</ymax>
       </extent>
-      <id>lopperuter20180803100536915</id>
-      <datasource>./lopperuter.shp</datasource>
+      <id>lopperuter_område20180803232036548</id>
+      <datasource>./lopperuter-område.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>lopperuter</layername>
+      <layername>lopperuter-område</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -211,22 +210,28 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="Lopperuter">
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lopperute">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="Lopperuter" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
+      <renderer-v2 attr="lopperute" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
         <categories>
           <category render="true" symbol="0" value="Rute 1" label="Rute 1"/>
           <category render="true" symbol="1" value="Rute 2" label="Rute 2"/>
           <category render="true" symbol="2" value="Rute 3" label="Rute 3"/>
-          <category render="true" symbol="3" value="" label=""/>
+          <category render="true" symbol="3" value="Rute 4" label="Rute 4"/>
+          <category render="true" symbol="4" value="Rute 5" label="Rute 5"/>
+          <category render="true" symbol="5" value="Rute 6" label="Rute 6"/>
+          <category render="true" symbol="6" value="" label=""/>
         </categories>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="136,219,57,255"/>
+              <prop k="color" v="49,236,161,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -241,7 +246,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="221,115,113,255"/>
+              <prop k="color" v="232,220,126,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -256,7 +261,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="90,198,200,255"/>
+              <prop k="color" v="88,23,228,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -271,7 +276,52 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="143,56,219,255"/>
+              <prop k="color" v="116,172,218,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="232,134,214,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="132,231,96,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="239,134,130,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -288,7 +338,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="143,110,183,255"/>
+              <prop k="color" v="81,218,170,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -333,11 +383,11 @@
         <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/drawLabels" value="false"/>
         <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value="Lopperuter"/>
+        <property key="labeling/fieldName" value=""/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="Noto Sans"/>
-        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontItalic" value="true"/>
         <property key="labeling/fontLetterSpacing" value="0"/>
         <property key="labeling/fontLimitPixelSize" value="false"/>
         <property key="labeling/fontMaxPixelSize" value="10000"/>
@@ -347,10 +397,10 @@
         <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/fontStrikeout" value="false"/>
         <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWeight" value="75"/>
         <property key="labeling/fontWordSpacing" value="0"/>
         <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
         <property key="labeling/labelOffsetInMapUnits" value="true"/>
         <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/labelPerPart" value="false"/>
@@ -449,8 +499,8 @@
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>70</layerTransparency>
-      <displayfield>Lopperuter</displayfield>
+      <layerTransparency>40</layerTransparency>
+      <displayfield>id</displayfield>
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Label"/>
@@ -513,8 +563,8 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
-        <xmin>0</xmin>
-        <ymin>0</ymin>
+        <xmin>598711.76622791471891105</xmin>
+        <ymin>6646683.40141747891902924</ymin>
         <xmax>600387.96408322418574244</xmax>
         <ymax>6648632.17618001904338598</ymax>
       </extent>
@@ -552,15 +602,15 @@ def my_form_open(dialog, layer, feature):
       <renderer-v2 attr="Lopperute" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
         <categories>
           <category render="true" symbol="0" value="Rute 1" label="Rute 1"/>
-          <category render="true" symbol="1" value="Rute 2" label="Rute 2"/>
-          <category render="true" symbol="2" value="Rute 3" label="Rute 3"/>
-          <category render="true" symbol="3" value="Rute 4" label="Rute 4"/>
-          <category render="true" symbol="4" value="Rute 5" label="Rute 5"/>
-          <category render="true" symbol="5" value="Rute 6" label="Rute 6"/>
-          <category render="true" symbol="6" value="Rute 7" label="Rute 7"/>
-          <category render="true" symbol="7" value="Rute 8" label="Rute 8"/>
-          <category render="true" symbol="8" value="Rute 9" label="Rute 9"/>
-          <category render="true" symbol="9" value="Rute 10" label="Rute 10"/>
+          <category render="true" symbol="1" value="Rute 10" label="Rute 10"/>
+          <category render="true" symbol="2" value="Rute 2" label="Rute 2"/>
+          <category render="true" symbol="3" value="Rute 3" label="Rute 3"/>
+          <category render="true" symbol="4" value="Rute 4" label="Rute 4"/>
+          <category render="true" symbol="5" value="Rute 5" label="Rute 5"/>
+          <category render="true" symbol="6" value="Rute 6" label="Rute 6"/>
+          <category render="true" symbol="7" value="Rute 7" label="Rute 7"/>
+          <category render="true" symbol="8" value="Rute 8" label="Rute 8"/>
+          <category render="true" symbol="9" value="Rute 9" label="Rute 9"/>
           <category render="true" symbol="10" value="" label=""/>
         </categories>
         <symbols>
@@ -572,7 +622,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="224,67,185,255"/>
+              <prop k="line_color" v="28,235,35,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -591,7 +641,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="228,85,14,255"/>
+              <prop k="line_color" v="226,87,184,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -610,7 +660,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="156,202,92,255"/>
+              <prop k="line_color" v="128,203,42,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -629,7 +679,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="181,71,228,255"/>
+              <prop k="line_color" v="37,186,205,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -648,7 +698,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="91,138,214,255"/>
+              <prop k="line_color" v="124,99,224,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -667,7 +717,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="43,209,37,255"/>
+              <prop k="line_color" v="112,143,205,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -686,7 +736,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="235,37,80,255"/>
+              <prop k="line_color" v="209,122,68,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -705,7 +755,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="41,210,126,255"/>
+              <prop k="line_color" v="47,212,141,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -724,7 +774,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="213,198,86,255"/>
+              <prop k="line_color" v="210,123,238,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -743,7 +793,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="39,192,203,255"/>
+              <prop k="line_color" v="240,229,107,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -762,7 +812,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="73,50,204,255"/>
+              <prop k="line_color" v="220,69,94,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -783,7 +833,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="225,111,45,255"/>
+              <prop k="line_color" v="224,67,185,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -969,17 +1019,18 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description="Noto Sans,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1031,8 +1082,8 @@ def my_form_open(dialog, layer, feature):
       <DegreeFormat type="QString">MU</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
@@ -1056,15 +1107,30 @@ def my_form_open(dialog, layer, feature):
     </Gui>
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
-      <LayerSnappingList type="QStringList"/>
-      <LayerSnappingEnabledList type="QStringList"/>
+      <LayerSnappingList type="QStringList">
+        <value>lopperuter_veier20180803112336767</value>
+        <value>lopperuter_område20180803232036548</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
       <SnappingMode type="QString">current_layer</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
-      <LayerSnappingToleranceUnitList type="QStringList"/>
-      <LayerSnapToList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
-      <LayerSnappingToleranceList type="QStringList"/>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
     </Digitizing>
     <Identify>
       <disabledLayers type="QStringList"/>

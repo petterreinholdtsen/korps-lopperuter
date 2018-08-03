@@ -3,7 +3,7 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="lopperuter_veier20180803112336767" name="lopperuter-veier">
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lopperuter_veier20180803112336767" name="lopperuter-veier">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -26,10 +26,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>598510.99914309591986239</xmin>
-      <ymin>6646961.52188447490334511</ymin>
-      <xmax>601390.27263738284818828</xmax>
-      <ymax>6648544.26367606595158577</ymax>
+      <xmin>599665.99280246172565967</xmin>
+      <ymin>6647330.68412990309298038</ymin>
+      <xmax>600761.34292997734155506</xmax>
+      <ymax>6647932.80005486868321896</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -64,9 +64,9 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="lopperuter-veier" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="lopperuter-veier" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="lopperuter_veier20180803112336767" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="lopperuter_veier20180803112336767" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="lopperuter-område" showFeatureCount="0">
@@ -180,8 +180,8 @@
       <extent>
         <xmin>10.7671581522557247</xmin>
         <ymin>59.9453756579957826</ymin>
-        <xmax>10.79502065488967766</xmax>
-        <ymax>59.95670602956555939</ymax>
+        <xmax>10.79757763172723628</xmax>
+        <ymax>59.96313367706891739</ymax>
       </extent>
       <id>lopperuter_område20180803232036548</id>
       <datasource>./lopperuter-område.shp</datasource>
@@ -220,18 +220,22 @@
       <renderer-v2 attr="lopperute" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
         <categories>
           <category render="true" symbol="0" value="Rute 1" label="Rute 1"/>
-          <category render="true" symbol="1" value="Rute 2" label="Rute 2"/>
-          <category render="true" symbol="2" value="Rute 3" label="Rute 3"/>
-          <category render="true" symbol="3" value="Rute 4" label="Rute 4"/>
-          <category render="true" symbol="4" value="Rute 5" label="Rute 5"/>
-          <category render="true" symbol="5" value="Rute 6" label="Rute 6"/>
-          <category render="true" symbol="6" value="" label=""/>
+          <category render="true" symbol="1" value="Rute 10" label="Rute 10"/>
+          <category render="true" symbol="2" value="Rute 2" label="Rute 2"/>
+          <category render="true" symbol="3" value="Rute 3" label="Rute 3"/>
+          <category render="true" symbol="4" value="Rute 4" label="Rute 4"/>
+          <category render="true" symbol="5" value="Rute 5" label="Rute 5"/>
+          <category render="true" symbol="6" value="Rute 6" label="Rute 6"/>
+          <category render="true" symbol="7" value="Rute 7" label="Rute 7"/>
+          <category render="true" symbol="8" value="Rute 8" label="Rute 8"/>
+          <category render="true" symbol="9" value="Rute 9" label="Rute 9"/>
+          <category render="true" symbol="10" value="" label=""/>
         </categories>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="49,236,161,255"/>
+              <prop k="color" v="40,193,216,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -246,7 +250,22 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="232,220,126,255"/>
+              <prop k="color" v="138,113,230,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="10">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="225,72,179,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -261,7 +280,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="88,23,228,255"/>
+              <prop k="color" v="57,106,203,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -276,7 +295,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="116,172,218,255"/>
+              <prop k="color" v="53,229,56,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -291,7 +310,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="232,134,214,255"/>
+              <prop k="color" v="217,46,72,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -306,7 +325,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="132,231,96,255"/>
+              <prop k="color" v="206,201,124,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -321,7 +340,52 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="239,134,130,255"/>
+              <prop k="color" v="130,202,52,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="81,204,153,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="203,116,58,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="175,61,210,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -525,17 +589,18 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="Noto Sans,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -622,7 +687,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="28,235,35,255"/>
+              <prop k="line_color" v="223,68,133,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -641,7 +706,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="226,87,184,255"/>
+              <prop k="line_color" v="98,104,213,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -660,7 +725,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="128,203,42,255"/>
+              <prop k="line_color" v="150,232,126,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -679,7 +744,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="37,186,205,255"/>
+              <prop k="line_color" v="185,216,73,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -698,7 +763,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="124,99,224,255"/>
+              <prop k="line_color" v="119,205,145,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -717,7 +782,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="112,143,205,255"/>
+              <prop k="line_color" v="30,144,226,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -736,7 +801,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="209,122,68,255"/>
+              <prop k="line_color" v="202,98,199,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -755,7 +820,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="47,212,141,255"/>
+              <prop k="line_color" v="139,239,226,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -774,7 +839,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="210,123,238,255"/>
+              <prop k="line_color" v="178,131,224,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -793,7 +858,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="240,229,107,255"/>
+              <prop k="line_color" v="231,177,68,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>
@@ -812,7 +877,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="220,69,94,255"/>
+              <prop k="line_color" v="210,106,90,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1.5"/>
               <prop k="line_width_unit" v="MM"/>

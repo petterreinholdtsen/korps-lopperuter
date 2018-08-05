@@ -72,8 +72,7 @@ Rute 9:
 
 Kafe
 
-Sirusveien, Gamle Kjelsåsvei fra Saturnveien til gangstien til
-sirusveien, Kapellveien fra Engebråten skole til Neptunveien,
+Sirusveien, Kapellveien fra Engebråten skole til Neptunveien,
 Saturnveien, Engebråtveien, Merkurveien, Grefsenveien fra Saturnveien
 til Marsveien.
 
@@ -82,5 +81,5 @@ Rute 10:
 Klær
 
 Marsveien, Neptunveien, Hesteskoen, Sømveien 26, 31 og 36, Kapellveien
-fra Neptunveien til Kjelsåsløkka, Gamle Kjelsåsvei fra gangstien til
-Sirusveien og ned til Marsveien, Kjelsåsløkka.
+fra Neptunveien til Kjelsåsløkka, Gamle Kjelsåsvei fra Saturnveien til
+Marsveien, Kjelsåsløkka.

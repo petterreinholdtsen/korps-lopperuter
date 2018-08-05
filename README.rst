@@ -2,7 +2,7 @@ Kart over lopperuter Grefsen Skolekorps
 =======================================
 
 Her er grunnlagsdata for å lage kart over lopperuter for Grefsen
-skolekorps
+skolekorps, http://www.grefsenskolekorps.no/ .
 
 Kartet har projesering WGS-84 UTM-32 N og er tegnet med QGis basert på
 OpenStreetmap, med WMS-tjenesten tilgjengelig fra osm-wms.de som

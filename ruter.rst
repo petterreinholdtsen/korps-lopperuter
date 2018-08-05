@@ -2,17 +2,17 @@ Rute 1:
 
 Sport og isenkram
 
-Betzy Kjelsbergsvei 13 - 17 + 14 - 30F, Othilie Tonnings vei 9 - 15D +
-14 - 20 og Tverrvei 1 - 4
+Betzy Kjelsbergsvei 13 - 17 + 14 - 30F, Othilie Tonnings vei og
+Tverrvei 2 - 4.
 
 Rute 2:
 
 Glass og kjøkken
 
-Betzy Kjelsbergsvei 1 - 11 + 2 - 10, Othilie Tonnings vei 3-5 + 2 - 12,
-Bråtenalleen 36 - 28 + 33 - 35, Bjerkealleen begge sider til
-Grefsenveien, Engveien begge sider til Grefsenveien og Morellsvei fra
-Bjerkealleen ned til Ringveien begge sider.
+Betzy Kjelsbergsvei 1 - 11 + 2 - 10, Bråtenalleen 36 - 28 + 33 - 35,
+Bjerkealleen begge sider til Grefsenveien, Engveien begge sider til
+Grefsenveien og Morellsvei fra Bjerkealleen ned til Ringveien begge
+sider.
 
 Rute 3:
 
@@ -28,41 +28,45 @@ Rute 4:
 
 Leker
 
-Ogmundsvei fra Morellsvei og ned til Bråtenalleen, Grefsenalleen fra
-Grefsenveien til Lindealleen, Grefsentunet, Arnesvei, Håkon Aunes vei.
+Ogmundsvei fra Grefsenveien og ned til Bråtenalleen, Grefsenalléen fra
+Grefsenveien til Lindealleen, Grefsentunet, Arnesvei, Håkon Aunes vei,
+Bråtenalléen fra Grefsen Allé til Morrels vei, Grefsenveien fra
+Grefsen allé til Lindealléen.
 
 Rute 5:
 
 Tekstil og bilder
 
-Kapellveien begge sider fra skolen og ned til Bråtenalleen, Hele
-Kastanjeveien, Morellsvei fra Grefsenveien og ned til Bråtenalleen,
-Gladsvei fra Grefsenveien til Kjelsåsveien, Grefsenveien fra Gladsvei
-og ned til Grefsealleen, Ogmundsvei fra Grefsenveien til Haakon
-Aunesvei.
+Gladsvei fra skolen til Grefsenveien, Kirkegårdsbakken, Kapellveien
+begge sider fra skolen og ned til Bråtenalleen, Hele Kastanjeveien,
+Morellsvei fra Grefsenveien og ned til Bråtenalleen, Grefsenveien fra
+Gladsvei og ned til Grefsealleen.
 
 Rute 6:
 
 Elektro
 
-Gladsvei fra skolen til Grefsenveien, Platåveien, Lilloe-Olsensvei,
-Gamle Kjelsåsvei til Saturnveien, Saturnveien fra gml. Kjelsåsvei til
-Grefsenveien, Orionveien og Grefsenveien fra Saturnveien til Gladsvei.
+Platåveien, Lilloe-Olsensvei, Gamle Kjelsåsvei fra Platåveien til
+Saturnveien, Saturnveien fra gml. Kjelsåsvei til Grefsenveien,
+Orionveien og Grefsenveien fra Saturnveien til Gladsvei.
 
 Rute 7:
 
 Sko og vesker
 
-Grefsenveien fra Gladsvei til Nordlysveien, Brannvaktveien, Torleifs
-alléKjelsåsveien fra gladsvei til stikkveien ned mot jupiterjordet,
-Nordhagaveien 1
+Grefsenveien fra Grefsen allé til Glads vei, Brannvaktveien, Torleifs
+allé, Kjelsåsveien fra gladsvei til stikkveien ned mot jupiterjordet,
+Gladsvei fra Grefsenveien til Kjelsåsveien, Doktor Smiths vei fra
+Grefsenveien til Glads vei, Nandrups vei, Grefsenkollveien 6, 8, 12,
+14, 16, Akebakkeskogen.
 
 Rute 8:
 
 Møbler
 
-Nordlysveien, Jupiterveien, Nordhagaveien, Kjelsåsveien til
-Lyngåsveien, Kikutveien, Sandtakveien, Grefsenkollveien 12, 14, 16
+Nordlysveien til Lyngåsveien, Jupiterveien, Nordhagaveien til
+Lyngåsveien, Kjelsåsveien fra stikkveien mot Jupiterjordet til
+Lyngåsveien, Kikutveien, Sandtakveien.
 
 Rute 9:
 
@@ -70,12 +74,13 @@ Kafe
 
 Sirusveien, Gamle Kjelsåsvei fra Saturnveien til gangstien til
 sirusveien, Kapellveien fra Engebråten skole til Neptunveien,
-Saturnveien, Engebråtveien, Merkurveien
+Saturnveien, Engebråtveien, Merkurveien, Grefsenveien fra Saturnveien
+til Marsveien.
 
 Rute 10:
 
 Klær
 
-Marsveien, Neptunveien, Hesteskoen, Kapellveien fra Neptunveien til
-Kjelsåsveien, Gamle Kjelsåsvei fra gangstien til Sirusveien og ned til
-Marsveien, Kjelsåsløkka.
+Marsveien, Neptunveien, Hesteskoen, Sømveien 26, 31 og 36, Kapellveien
+fra Neptunveien til Kjelsåsløkka, Gamle Kjelsåsvei fra gangstien til
+Sirusveien og ned til Marsveien, Kjelsåsløkka.

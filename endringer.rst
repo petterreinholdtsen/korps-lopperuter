@@ -8,7 +8,6 @@ Endringer i rutekartet før høsten 2018
   begrense dem til de delene som hører til skolekretsen for Grefsen
   Skole.
 * Kuttet ut Tverrvei 1.
-* Lagt til Akebakkeskogen
 * Lagt til Dr. Smiths vei mot Glads vei.
 * Lagt til Grefsenveien fra Saturnveien til Marsveien.
 * Lagt til Nandrups vei.

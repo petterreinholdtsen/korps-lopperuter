@@ -58,7 +58,7 @@ Grefsenveien fra Grefsen allé til Glads vei, Brannvaktveien, Torleifs
 allé, Kjelsåsveien fra gladsvei til stikkveien ned mot jupiterjordet,
 Gladsvei fra Grefsenveien til Kjelsåsveien, Doktor Smiths vei fra
 Grefsenveien til Glads vei, Nandrups vei, Grefsenkollveien 6, 8, 12,
-14, 16, Akebakkeskogen.
+14, 16.
 
 Rute 8:
 

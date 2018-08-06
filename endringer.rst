@@ -7,7 +7,7 @@ Endringer i rutekartet før høsten 2018
 * Kuttet ut deler av Kapellveien, Nordhagaveien og Nordlysveien for å
   begrense dem til de delene som hører til skolekretsen for Grefsen
   Skole.
-* Kuttet ut Tverrvei 1.
+* Kuttet ut Tverrvei 1 da den er vanskelig å komme til med varebil.
 * Lagt til Dr. Smiths vei mot Glads vei.
 * Lagt til Grefsenveien fra Saturnveien til Marsveien.
 * Lagt til Nandrups vei.

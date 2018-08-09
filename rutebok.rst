@@ -1,3 +1,9 @@
+.. image:: lopperuter-fargekodet.png
+
+(Oppdatert 2018-08-06)
+
+Samtlige ruter.
+
 .. image:: lopperute-01.png
 
 Rute 1: Betzy Kjelsbergsvei 13 - 17 + 14 - 30F, Othilie Tonnings vei

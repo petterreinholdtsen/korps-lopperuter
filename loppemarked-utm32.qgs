@@ -1500,6 +1500,17 @@ def my_form_open(dialog, layer, feature):
       <variableValues type="QStringList"/>
     </Variables>
     <WMSContactPerson type="QString"></WMSContactPerson>
+    <CopyrightLabel>
+      <FontName type="QString">Noto Sans</FontName>
+      <FontSize type="int">9</FontSize>
+      <MarginV type="int">0</MarginV>
+      <MarginH type="int">0</MarginH>
+      <Enabled type="bool">true</Enabled>
+      <Placement type="int">3</Placement>
+      <MarginUnit type="QString">MM</MarginUnit>
+      <Label type="QString">Kartdata &amp;copy; OpenStreetMap 2018</Label>
+      <Color type="QString">#000000</Color>
+    </CopyrightLabel>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMSContactOrganization type="QString"></WMSContactOrganization>

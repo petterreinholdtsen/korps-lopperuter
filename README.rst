@@ -10,6 +10,13 @@ bakgrunnskart.
 
 Kartet er basert på rutekart brukt våren 2018 og endret for bruk høsten 2018.
 
+Skolekretser er fisket ut av kartgrunnlaget tilgjengelig via
+https://www.oslo.kommune.no/skole-og-utdanning/skoleoversikt-og-skolekrets/skolekrets-barneskole/ .
+Hentet GeoJSON og redigerte ut alle andre skolekretser enn Grefsen og
+Disen ved hjelp av følgende kommando:
+
+ wget 'https://www.oslo.kommune.no/service.php?service=schooldistricts.allData'
+
 Det lages to varianter av kartet.  Et for å dele ut i nærområdet.
 Dette viser hvor det samles inn lopper.  Det lages for trykking i
 sort-hvit og inneholder informasjon om hvilke veier det samles langs,

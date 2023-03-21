@@ -1,6 +1,11 @@
 Endringsoversikt for rutekartet til Grefsen skolekorps loppemarked
 ==================================================================
 
+Planlagte endringer i rutekartet før våren 2023
+-----------------------------------------------
+* Lagt til skolekretsen for Disen skole.
+* Lagt til Gunnar Schjelderups vei.
+
 Endringer i rutekartet før høsten 2018
 --------------------------------------
 
